@@ -1,0 +1,262 @@
+  /*load font*/
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Libre Baskerville';
+}
+
+/*reusable*/
+.container{
+    padding: 20px 12.5%;
+}
+
+/*overlay*/
+
+.overlayContainer{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay{
+    background-image: linear-gradient(to bottom right,#355C7D,#6C5B7B,#C06C84);
+	opacity: .6; 
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.centerized{
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-left: 50px;
+    z-index: 4;
+}
+
+.centerized h1{
+    text-align: center;
+    font-size: 50pt;
+    margin: 0;
+}
+
+.centerized h5{
+    font-size: 18pt;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.centerized p{
+    font-size: 14pt;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.centerized a{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 16pt;
+}
+
+/*navbar*/
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar-content{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#logo{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+
+.navbar-content ul{
+    font-weight: bolder;
+    float: right;
+    padding-left: 0;
+    margin-right: 20px;
+}
+
+.navbar-content ul a{
+    font-family: 'serif';
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bolder;
+    margin: 0px 20px;
+}
+
+.navbar-content ul a:hover{
+    font-family: 'serif';
+    text-decoration: none;
+    color: #7e5f40;
+    font-weight: bolder;
+    margin: 0px 20px;
+}
+
+/*banner*/
+.bannerContainer{
+    height: 1000px;
+}
+
+#banner{
+    background-image: url(/img/cafe-chairs-menu-6267.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.feature-holder{
+    text-align: center;
+}
+
+.featureImage{
+    width: 200px;
+    max-height: 100px;
+    display: inline-block;
+}
+
+.feature div{
+    margin: 10px 40px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.feature h3{
+    border-bottom: 1px solid #7e5f40;
+    padding-bottom: 16px;
+    color: #7e5f40;
+}
+
+.quotesContainer{
+    height: 500px;
+}
+
+#quotes{
+    background-image: url(/img/coffee-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.overlay2{
+    background-image: linear-gradient(to bottom right,#fc4a1a,#f7b733);
+	opacity: .6; 
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+}
+
+.quotesContainer h1{
+    z-index: 20;
+    color: white;
+    position: relative;
+    font-size: 50pt;
+    margin: 0;
+}
+
+.centerized2{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translate(0, -50%);
+    padding-left: 50px;
+    z-index: 4;
+}
+
+.centerized2 h1{
+    font-size: 50pt;
+    margin: 0;
+}
+
+.centerized2 h5{
+    font-size: 18pt;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.centerized2 p{
+    color: white;
+    font-size: 14pt;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.centerized2 a{
+    margin: 0;
+    padding: 0;
+}
+
+.description, .statement p{
+    line-height: 2;
+}
+
+.statement p{
+    text-align: justify;
+}
+
+/*footer*/
+footer {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 30px 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  footer h5 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+  }
+
