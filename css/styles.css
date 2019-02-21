@@ -151,6 +151,12 @@ button{
     text-align: center;
 }
 
+.section-title{
+    color: #7e5f40;
+    font-size: 24pt;
+    margin-bottom: 60px;
+}
+
 .featureImage{
     width: 200px;
     max-height: 100px;
@@ -239,6 +245,14 @@ button{
 
 .statement p{
     text-align: justify;
+}
+
+#content{
+    top: 60px;
+}
+
+#content .content{
+    margin-top: 60px;
 }
 
 /*footer*/
