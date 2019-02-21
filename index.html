@@ -10,12 +10,12 @@
         <header>
             <div class="navbar">
                 <nav class="navbar-content">
-                    <a href="index.html"><img id="logo" src="./img/logo-with-icon.png" height="30px"></a>
+                    <a href="#home"><img id="logo" src="./img/logo-with-icon.png" height="30px"></a>
                     <ul>
-                        <a href="index.html">Home</a>
-                        <a href="menu.html">Menu</a>
-                        <a href="about.html">About</a>
-                        <a href="findUs.html">Find Us</a>
+                        <a href="#home">Home</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#about">About</a>
+                        <a href="#findUs">Find Us</a>
                     </ul>
                 </nav>
             </div>
@@ -23,36 +23,43 @@
         <!--content-->
         <section>
             <!--banner-->
-            <div id="banner" class="bannerContainer">
-                <div class="overlay">
-                   
-                </div>
-                <div class="centerized">
-                    <a href="index.html"><img src="./img/logo-without-icon-white.png" height="80px"></a>
-                    <h5>When your brain needs a hug!</h5>
-                    <p>Science may never come up with a better office communication system than the coffee break.</p>
-                    <button class="button">Order Now</button>
+            <div id="home">
+                <div id="banner" class="bannerContainer">
+                    <div class="overlay">
+                        <!--empty div for overlay-->
+                    </div>
+                    <div class="centerized">
+                        <a href="index.html"><img src="./img/logo-without-icon-white.png" height="80px"></a>
+                        <h5>When your brain needs a hug!</h5>
+                        <p>Science may never come up with a better office communication system than the coffee break.</p>
+                        <br><br>
+                        <a id="btn" href="#menu">Order Now</a>
+                    </div>
                 </div>
             </div>
+            
+
             <!--content-->
             <div class="container">
                 <div class="feature-holder">
-                    <h1 class="section-title">Why Us?</h1>
+                    <div class="section-title">
+                        <h1 class="title">Why Us?</h1>
+                    </div>
                     <div class="feature">
                         <div>
                             <img class="featureImage" src="/img/002-livingroom-black-double-sofa.svg">
                             <h3>Cozy as Fuck</h3>
-                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam fugit doloremque illum quod consequuntur!</p>
+                            <p class="description">Sofa. Sofa everywhere, Incredible lighting. Oh, and warm atmosphere too!</p>
                         </div>
                         <div>
                             <img class="featureImage" src="/img/001-aeropress.svg">
                             <h3>Brewed by Hand</h3>
-                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptate quos ullam vero et corrupti?</p>
+                            <p class="description">All our coffee is manually brewed with our hands. It's impossible to do it with our foot</p>
                         </div>
                         <div>
                             <img class="featureImage" src="/img/003-gingerbread-man.svg">
                             <h3>Free Cookies!</h3>
-                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, sequi.</p>
+                            <p class="description">Because every coffee needs a friend</p>
                         </div>
                     </div>
                 </div>
@@ -60,16 +67,271 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore reprehenderit minima distinctio neque ratione dicta assumenda, sit consequuntur hic id voluptas. Cupiditate reprehenderit praesentium, ipsam dolore perferendis, ad quaerat error quibusdam tenetur voluptate natus vero? Explicabo soluta ut aliquam aspernatur veritatis laborum a ab accusantium accusamus ratione officiis doloremque repellat sequi rerum minus tenetur blanditiis dolores voluptas, vel esse repellendus! Quo soluta corrupti iusto eum cumque, beatae unde consequuntur, vitae ipsa saepe quidem placeat illo aperiam nam maiores impedit.</p>
                 </div>
             </div>
-            <!--quotes-->
+
+            <!--quotes image-->
             <div id="quotes" class="quotesContainer">
                 <div class="overlay2">
                         
                 </div>
                 <div class="centerized2">
-                    <h1>"A bad day with coffee is better than a good day without it"</h1>
+                    <div class="logo-container">
+                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
+                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                    </div>        
+                    <h2>Today's Special:</h2>            
+                    <h1>Caramel Macchiato</h1>
+                    <p>Caramel Macchiato. The delicious, multi-layered Macchiato begins with milk steamed until it's stretched and smooth to bring out its natural sweetness and is topped by a dense, creamy foam. Then rich espresso is poured over and through the foam, where it mixes with the milk and creates a brown mark on top.</p>
+                    <a id="btn" href="#menu">Add to Cart</a>
+                </div>
+            </div>
+
+            <!--content menu-->
+            <div class="container" id="menu">
+                <div class="statement">
+                    <div class="section-title">
+                        <h1 class="title">Menu</h1>
+                    </div>
+
+                    <section class="feature-holder brown-marginated">
+                        <div class="bottom-border">
+                            <h2>Drinks</h2>
+                        </div>
+                        <section class="feature-menu">
+                            <div class="col-menu1 a">
+                            <img class="menuImageCappucino" src="./img/menu/Cappuccino.jpg">
+                            <p class="descCappucino">Cappuccino is an espresso-based coffee drink, and is traditionally prepared with double espresso and steamed milk foam</p>
+                            <h3>Cappuccino</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1 b">
+                            <img class="menuImage-blackCoffee" src="./img/menu/black-coffee.jpg" alt="black-coffee">
+                            <p class="desc-blackCoffee">Coffee without creamer or milk.</p>
+                            <h3>Black coffee</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-tea" src="./img/menu/tea.jpg" alt="tea">
+                            <p class="desc-tea">Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves
+                                    of the Camellia sinensis</p>
+                            <h3>Tea</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                        </section>
+                        <div class="bottom-border">
+                            <h2 style="margin-top: 80px;">Food</h2>
+                        </div>
+                        <section class="feature-menu">
+                            <div class="col-menu1">
+                            <img class="menuImage-grilledSteak" src="./img/menu/grilled-steak.jpg" alt="grilled-steak">
+                            <p class="desc-grilledSteak">A steak is a meat generally sliced across the muscle fibers, potentially including a bone</p>
+                            <h3>Grilled steak</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-frenchFries" src="./img/menu/french-fries.jpg" alt="french-fries">
+                            <p class="desc-frenchFries">We will connect you to people or merchant who want to reseller your product using our platform..</p>
+                            <h3>French fries</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+            
+                            <div class="col-menu1">
+                            <img class="menuImage-pancake" src="./img/menu/pancakes.jpg" alt="pancakes">
+                            <p class="desc-pancake">Pancake is a flat cake, often thin and round, prepared from a starch-based batter that may
+                                    contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan,
+                                    often frying with oil or butter.</p>
+                            <h3>Pancake</h3>
+                            <p class="desc-pancake">Pancake is a flat cake, often thin and round, prepared from a starch-based batter that may
+                                contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan,
+                                often frying with oil or butter.</p>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-sandwich" src="./img/menu/sandwich.jpg" alt="sandwich">
+                            <p class="desc-sandwich">sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or
+                                    between slices of bread, or more generally any dish wherein two or more pieces of bread serve
+                                    as a container or wrapper for another food type.</p>
+                            <h3>Sandwich</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+            
+                            <div class="col-menu1">
+                            <img class="menuImage-salad" src="./img/menu/salad.jpg" alt="salad">
+                            <p class="desc-salad">A salad is a dish consisting of a mixture of small pieces of food, usually vegetables.</p>
+                            <h3>Salad</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-chickenNugget" src="./img/menu/chicken-nugget.jpeg" alt="chicken-nugget">
+                            <p class="desc-chickenNugget">A chicken nugget is a chicken product made from chicken meat that is breaded or battered, then
+                                    deep-fried or baked.</p>
+                            <h3>Chicken nugget</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-spaghetti" src="./img/menu/spagheti.jpg" alt="spaghetti">
+                            <p class="desc-spaghetti">Spaghetti is a long, thin, solid, cylindrical pasta with meat-based sauce originating from
+                                    Bologna, Italy, hence the name.</p>
+                            <h3>Spaghetti</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-burgers" src="./img/menu/burgers.jpg" alt="burgers">
+                            <p class="desc-burgers">is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed
+                                    inside a sliced bread roll or bun.</p>
+                            <h3>Burgers</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-friedChicken" src="./img/menu/fried-chicken.jpg" alt="fried-chicken">
+                            <p class="desc-friedChicken">Fried chicken is a dish consisting of chicken pieces usually from broiler chickens which have
+                                    been floured or battered and then pan-fried, deep fried, or pressure fried. </p>
+                            <h3>Fried Chicken</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                            <div class="col-menu1">
+                            <img class="menuImage-pizza" src="./img/menu/pizza.jpg" alt="pizza">
+                            <p class="desc-pizza">Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of
+                                    leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients
+                                    (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven</p>
+                            <h3>Pizza</h3>
+                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+
+            <!--quotes about-->
+            <div id="quotesAbout" class="quotesContainer">
+                <div class="overlayAbout">
+                        
+                </div>
+                <div class="centerized2">
+                    <div class="logo-container">
+                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
+                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                    </div>     
+                    <h1>"Humanity runs on coffee"</h1>
+                </div>
+            </div>
+
+            <!--content about-->
+            <div class="container" id="about">
+                <div class="statement">
+                    <div class="section-title">
+                        <h1 class="title">About</h1>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore reprehenderit minima distinctio neque ratione dicta assumenda, sit consequuntur hic id voluptas. Cupiditate reprehenderit praesentium, ipsam dolore perferendis, ad quaerat error quibusdam tenetur voluptate natus vero? Explicabo soluta ut aliquam aspernatur veritatis laborum a ab accusantium accusamus ratione officiis doloremque repellat sequi rerum minus tenetur blanditiis dolores voluptas, vel esse repellendus! Quo soluta corrupti iusto eum cumque, beatae unde consequuntur, vitae ipsa saepe quidem placeat illo aperiam nam maiores impedit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, est voluptatum. Ipsa cupiditate in dolores nemo itaque quo alias quidem, facere consequuntur atque similique optio aliquid blanditiis mollitia beatae laboriosam ullam repellat distinctio doloremque nam rerum adipisci ipsam sapiente architecto. Facere ut alias et accusantium expedita ducimus tenetur sunt tempore? Quibusdam et dolorum excepturi magni aliquam fugit quam mollitia odit eius suscipit error dolorem qui, in ipsam natus minima vitae eveniet a, corporis nihil. Consequatur quibusdam voluptates rem soluta maiores!</p>
+                </div>
+            </div>
+
+            <!--quotes find us-->
+            <div id="quotesFindUs" class="quotesContainer">
+                <div class="overlayFindUs">
+                        
+                </div>
+                <div class="centerized2">
+                    <div class="logo-container">
+                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
+                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                    </div>     
+                    <h1>"Good communication is as stimulating as black coffee, and just as hard."</h1>
+                </div>
+            </div>
+
+            <!--content find us-->
+            <div class="container" id="findUs">
+                    <div class="statement">
+                        <div class="section-title">
+                            <h1 class="title">Find Us</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore reprehenderit minima distinctio neque ratione dicta assumenda, sit consequuntur hic id voluptas. Cupiditate reprehenderit praesentium, ipsam dolore perferendis, ad quaerat error quibusdam tenetur voluptate natus vero? Explicabo soluta ut aliquam aspernatur veritatis laborum a ab accusantium accusamus ratione officiis doloremque repellat sequi rerum minus tenetur blanditiis dolores voluptas, vel esse repellendus! Quo soluta corrupti iusto eum cumque, beatae unde consequuntur, vitae ipsa saepe quidem placeat illo aperiam nam maiores impedit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, est voluptatum. Ipsa cupiditate in dolores nemo itaque quo alias quidem, facere consequuntur atque similique optio aliquid blanditiis mollitia beatae laboriosam ullam repellat distinctio doloremque nam rerum adipisci ipsam sapiente architecto. Facere ut alias et accusantium expedita ducimus tenetur sunt tempore? Quibusdam et dolorum excepturi magni aliquam fugit quam mollitia odit eius suscipit error dolorem qui, in ipsam natus minima vitae eveniet a, corporis nihil. Consequatur quibusdam voluptates rem soluta maiores!</p>
+                    </div>
+                </div>
+    
+                <!--quotes image-->
+                <div id="quotesFooter" class="quotesContainer">
+                    <div class="overlayFooter">
+                            
+                    </div>
+                    <div class="centerized2">
+                        <div class="logo-container">
+                            <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
+                            <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        </div>  
+                        <h1>"Coffee is always a good idea"</h1>
+                        <p>- unknown</p>
+                    </div>
+                </div>
+
+            <!--content FAQ-->
+            <div class="container" id="findUs">
+                <div class="statement">
+                    <div class="section-title">
+                        <h1 class="title">FAQs</h1>
+                    </div>
+                    <div class="feature-holder">
+                        <div class="feature">
+                            <div>
+                                <h3>Where is the Coffee Break Coffee Shop located?</h3>
+                                <p class="description">Our first and main coffee shop is located in Kebayoran Lama, Jakarta Selatan. Currently we have 3 branch, for the location details, you can click <a href="#findUs">here</a></a></p>
+                            </div>
+                            <div>
+                                <h3>When are you open?</h3>
+                                <p class="description">Glad you asked. We’re a 7-day a week operation, taking only Thanksgiving and Christmas off to make coffee at home. Our hours are Monday – Sunday, 6:00 a.m. to 5:00 p.m, Call us even on the worst Maine weather days, as we rarely close due to storms.</p>
+                            </div>
+                            <div>
+                                <h3>Where do you buy your coffee?</h3>
+                                <p class="description">We are very proud to buy our beans from Jakarta’s very own Ulin Coffee Roastery. Ulin Coffee Roastery is a certified organic manufacturer that directly sources only sustainably farmed green coffee beans. </p>
+                            </div>
+                            <div>
+                                <h3>Who makes your food?</h3>
+                                <p class="description">We do!  With the exception of our gluten-free offerings, we make, bake, and serve our entire menu.</p>
+                            </div>
+                            <div>
+                                <h3>Does the Coffee Break have an agenda?</h3>
+                                <p class="description">We do: Sit. Stay. Enjoy. That’s it.  We don’t care who you vote for, pray to, or sleep with. We don’t even care if you’re talking on your cell phone while ordering, just as long as we get the gist of what you’d like.</p>
+                            </div>
+                            <div>
+                                <h3>Do you have free wifi?</h3>
+                                <p class="description">We offer Wi-Fi to all of our customers free of charge. Each customer is provided with our wireless Internet password on his or her receipt. We spend a considerable amount of resources insuring that our wireless is easily accessible and reliable to all of our customers.</p>
+                            </div>
+                            <div>
+                                <h3>How do I get a job there?</h3>
+                                <p class="description">We try hard to make this a great place to work, but employees do move on — so we encourage anyone interested in working with us to take a few minutes to read over what we ask of our baristas and full out our online application. </p>
+                            </div>
+                            <div>
+                                <h3>Do you recycle?</h3>
+                                <p class="description">Heck yeah we do! We break down and recycle any and everything that can go in our single stream-recycling bin. We also provide free coffee grounds for composting to our customers throughout the spring, summer, and fall. We can’t stand waste and overflowing dumpsters.</p>
+                            </div>
+                            <div>
+                                <h3>Do you sell merchandise?</h3>
+                                <p class="description">We sell travel mugs, diner and bistro mugs, t-shirts, and hats, all with Otis’s likeness prominently and simply representing our shop. We sell these at the shop, but we can also ship our goods anywhere you like.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <!--quotes image-->
+            <div id="quotesFooter" class="quotesContainer">
+                <div class="overlayFooter">
+                        
+                </div>
+                <div class="centerized2">
+                    <div class="logo-container">
+                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
+                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                    </div>  
+                    <h1>"Coffee is always a good idea"</h1>
                     <p>- unknown</p>
                 </div>
             </div>
+
         </section>
         <footer>
                 <h5>copyright &copy; 2016 by HACKFOX</h5>

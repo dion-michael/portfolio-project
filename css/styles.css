@@ -90,6 +90,10 @@ button{
     font-size: 16pt;
 }
 
+.logo-container{
+    display: inline;
+}
+
 /*navbar*/
 .navbar{
     width: 100%;
@@ -111,6 +115,14 @@ button{
     margin-left: 40px;
 }
 
+.logo-container #logo-top{
+    margin-bottom: 0;
+}
+
+.logo-container #logo{
+    margin-left: 0;
+}
+
 .navbar-content ul{
     font-weight: bolder;
     float: right;
@@ -120,6 +132,7 @@ button{
 
 .navbar-content ul a{
     font-family: 'serif';
+    text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.75);
     font-weight: bolder;
@@ -152,15 +165,229 @@ button{
 }
 
 .section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title{
     color: #7e5f40;
     font-size: 24pt;
-    margin-bottom: 60px;
 }
 
 .featureImage{
     width: 200px;
     max-height: 100px;
     display: inline-block;
+}
+
+.menuImage{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.menuImageCappucino{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.descCappucino{
+    display: none;
+}
+
+.menuImageCappucino:hover + .descCappucino{
+    display: block;
+}
+
+.menuImage-blackCoffee{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-blackCoffee{
+    display: none;
+}
+
+.menuImage-blackCoffee:hover + .desc-blackCoffee{
+    display: block;
+}
+
+.menuImage-tea{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-tea{
+    display: none;
+}
+
+.menuImage-tea:hover + .desc-tea{
+    display: block;
+}
+
+.menuImage-grilledSteak{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-grilledSteak{
+    display: none;
+}
+
+.menuImage-grilledSteak:hover + .desc-grilledSteak{
+    display: block;
+}
+
+.menuImage-frenchFries{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-frenchFries{
+    display: none;
+}
+
+.menuImage-frenchFries:hover + .desc-frenchFries{
+    display: block;
+}
+
+.menuImage-pancake{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-pancake{
+    display: none;
+}
+
+.menuImage-pancake:hover + .desc-pancake{
+    display: block;
+}
+
+.menuImage-sandwich{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-sandwich{
+    display: none;
+}
+
+.menuImage-sandwich:hover + .desc-sandwich{
+    display: block;
+}
+
+.menuImage-salad{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-salad{
+    display: none;
+}
+
+.menuImage-salad:hover + .desc-salad{
+    display: block;
+}
+
+.menuImage-chickenNugget{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-chickenNugget{
+    display: none;
+}
+
+.menuImage-chickenNugget:hover + .desc-chickenNugget{
+    display: block;
+}
+
+.menuImage-burgers{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-burgers{
+    display: none;
+}
+
+.menuImage-burgers:hover + .desc-burgers{
+    display: block;
+}
+
+.menuImage-friedChicken{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-friedChicken{
+    display: none;
+}
+
+.menuImage-friedChicken:hover + .desc-friedChicken{
+    display: block;
+}
+
+.menuImage-pizza{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-pizza{
+    display: none;
+}
+
+.menuImage-pizza:hover + .desc-pizza{
+    display: block;
+}
+
+.menuImage-spaghetti{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-spaghetti{
+    display: none;
+}
+
+.menuImage-spaghetti:hover + .desc-spaghetti{
+    display: block;
 }
 
 .feature div{
@@ -177,12 +404,25 @@ button{
     color: #7e5f40;
 }
 
+.feature-menu div{
+    margin: 10px 40px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.feature-menu h3{
+    padding-bottom: 16px;
+    color: #7e5f40;
+}
+
 .quotesContainer{
-    height: 500px;
+    height: 750px;
 }
 
 #quotes{
-    background-image: url(/img/coffee-2.jpg);
+    background-image: url(/img/caramel-macchiato.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -193,7 +433,7 @@ button{
     background-image: linear-gradient(to bottom right,#fc4a1a,#f7b733);
 	opacity: .6; 
     overflow: hidden;
-    height: 500px;
+    height: 750px;
     width: 100%;
     position: absolute;
 }
@@ -206,19 +446,33 @@ button{
     margin: 0;
 }
 
+.quotesContainer h2{
+    z-index: 20;
+    color: white;
+    position: relative;
+    font-size: 30pt;
+    font-weight: 300;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .centerized2{
     margin: 0;
     position: relative;
     top: 50%;
     text-align: center;
     transform: translate(0, -50%);
-    padding-left: 50px;
     z-index: 4;
+}
+
+.centerized2 img{
+    margin-bottom: 60px;
 }
 
 .centerized2 h1{
     font-size: 50pt;
     margin: 0;
+    padding: 0 12.5%;
 }
 
 .centerized2 h5{
@@ -230,8 +484,42 @@ button{
 .centerized2 p{
     color: white;
     font-size: 14pt;
-    margin: 0;
+    margin: 0 0 20px 0;;
     padding-top: 10px;
+    padding: 20px 12.5%;
+    text-align: center;
+}
+
+#btn{
+    border: 1px solid white;
+    padding: 10px;
+
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#btn:hover{
+    color: #f7b733;
+    background-color: white;
+}
+
+#btn-dark{
+    border: 1px solid #7e5f40;
+    padding: 10px;
+    border-radius: 12px;
+    color: #7e5f40;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#btn-dark:hover{
+    color: white;
+    background-color: #7e5f40;
 }
 
 .centerized2 a{
@@ -255,6 +543,57 @@ button{
     margin-top: 60px;
 }
 
+.overlayAbout{
+    background-image: linear-gradient(to bottom right,#ec008c,#fc6767);
+	opacity: .6; 
+    overflow: hidden;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+#quotesAbout{
+    background-image: url(/img/coffee-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.overlayFindUs{
+    background-image: linear-gradient(to bottom right,#11998e,#38ef7d);
+	opacity: .6; 
+    overflow: hidden;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+#quotesFindUs{
+    background-image: url(/img/coffee-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.overlayFooter{
+    background-image: linear-gradient(to bottom right,#0F2027,#203A43,#2C5364);
+	opacity: .6; 
+    overflow: hidden;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+#quotesFooter{
+    background-image: url(/img/coffee-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 /*footer*/
 footer {
     background-color: whitesmoke;
@@ -274,3 +613,13 @@ footer {
     text-align: center;
   }
 
+.brown-marginated{
+    color: #7e5f40;
+    margin-bottom: 40px;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #7e5f40;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
