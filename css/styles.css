@@ -33,6 +33,12 @@ h1, h2, h3, h4, h5, h6{
     padding: 20px 12.5%;
 }
 
+.source p{
+    text-align: right;
+    width: 100%;
+    margin-top: 0;
+}
+
 /*overlay*/
 
 .overlayContainer{
@@ -164,6 +170,10 @@ button{
     text-align: center;
 }
 
+.horsemen-holder{
+    text-align: center;
+}
+
 .section-title{
     text-align: center;
     margin-bottom: 60px;
@@ -180,6 +190,12 @@ button{
     display: inline-block;
 }
 
+.horsemenImage{
+    width: 200px;
+    max-height: 200px;
+    display: inline-block;
+}
+
 .menuImage{
     width: 200px;
     height: 200px;
@@ -188,6 +204,7 @@ button{
 }
 
 .menuImageCappucino{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -202,7 +219,24 @@ button{
     display: block;
 }
 
+.menuImage-macchiato{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.desc-macchiato{
+    display: none;
+}
+
+.menuImage-macchiato:hover + .desc-macchiato{
+    display: block;
+}
+
 .menuImage-blackCoffee{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -218,6 +252,7 @@ button{
 }
 
 .menuImage-tea{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -233,6 +268,7 @@ button{
 }
 
 .menuImage-grilledSteak{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -248,6 +284,7 @@ button{
 }
 
 .menuImage-frenchFries{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -527,12 +564,30 @@ button{
     padding: 0;
 }
 
-.description, .statement p{
+.description, .statement p, .statement-about, .statement-findUs{
     line-height: 2;
 }
 
 .statement p{
     text-align: justify;
+}
+
+.statement-about {
+    text-align: justify;
+}
+
+.statement-findUs {
+    text-align: justify;
+}
+
+.statement-about h2{
+    color: #7e5f40;
+}
+
+.statement-findUs h2{
+    color: #7e5f40;
+    margin: 0 auto;
+
 }
 
 #content{
@@ -577,6 +632,23 @@ button{
     background-repeat: no-repeat;
 }
 
+.overlayFAQ{
+    background-image: linear-gradient(to bottom right,#0F2027,#203A43,#2C5364);
+	opacity: .6; 
+    overflow: hidden;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+}
+
+#quotesFAQ{
+    background-image: url(/img/coffee-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .overlayFooter{
     background-image: linear-gradient(to bottom right,#0F2027,#203A43,#2C5364);
 	opacity: .6; 
@@ -587,7 +659,7 @@ button{
 }
 
 #quotesFooter{
-    background-image: url(/img/coffee-5.jpg);
+    background-image: url(/img/Mike-Tython.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -621,5 +693,30 @@ footer {
 .bottom-border{
     border-bottom: 1px solid #7e5f40;
     padding: 20px 0px;
-    margin-bottom: 20px;
+}
+
+.bottom-border-grey{
+    border-bottom: 5px dotted #c7c7c7;
+    padding: 20px 0px;
+}
+
+#social-media-holder{
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+
+
+.social-media-img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+}
+
+.horsemen-holder p{
+    font-style: italic;
+}
+
+#subtitle-center{
+    text-align: center;
 }
