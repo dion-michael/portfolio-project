@@ -720,3 +720,76 @@ footer {
 #subtitle-center{
     text-align: center;
 }
+
+/* CONTACT */
+
+.contact-input-name{
+    padding-bottom: 2em;
+    letter-spacing: 1px;
+}
+
+.contact-input-email{
+    letter-spacing: 1px;
+}
+
+.contact-textarea, textarea{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    resize: none;
+    border-radius: 0.8em;
+    text-transform: uppercase;
+}
+
+.button{
+    padding-top: 2em;
+}
+
+
+.contact-left{
+  padding-top: 25px;
+}
+.contact-us{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.contact-right li{
+  list-style: none;
+  padding: 0.5em;
+  padding-top: 0.3em;
+}
+.contact-right{
+  padding-top: 0;
+}
+.list-item{
+  padding-left: 1.5em;
+  text-align: justify;
+}
+
+
+
+button {
+  background-color: hsla(26, 49%, 38%, 1);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input{
+    border-color: rgb(255, 255, 255);
+}
+
+  input:required {
+      box-shadow:none;
+  }
+  input:invalid {
+      box-shadow:none;
+  } 
+  span{
+      justify-content: center;
+  }
