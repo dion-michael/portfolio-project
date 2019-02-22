@@ -18,6 +18,7 @@
 body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -159,7 +160,7 @@ button{
 }
 
 #banner{
-    background-image: url(/img/cafe-chairs-menu-6267.jpg);
+    background-image: url(./img/cafe-chairs-menu-6267.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -459,7 +460,7 @@ button{
 }
 
 #quotes{
-    background-image: url(/img/caramel-macchiato.jpg);
+    background-image: url(./img/caramel-macchiato.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -608,7 +609,7 @@ button{
 }
 
 #quotesAbout{
-    background-image: url(/img/coffee-3.jpg);
+    background-image: url(./img/coffee-3.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -625,7 +626,7 @@ button{
 }
 
 #quotesFindUs{
-    background-image: url(/img/coffee-4.jpg);
+    background-image: url(./img/coffee-4.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -642,7 +643,7 @@ button{
 }
 
 #quotesFAQ{
-    background-image: url(/img/coffee-5.jpg);
+    background-image: url(./img/coffee-5.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -659,7 +660,7 @@ button{
 }
 
 #quotesFooter{
-    background-image: url(/img/Mike-Tython.jpg);
+    background-image: url(./img/Mike-Tython.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
