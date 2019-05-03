@@ -116,28 +116,29 @@ button{
     background-color: whitesmoke;
 }
 
-#logo{
+.logo{
     padding-top: 7px;
     padding-bottom: 5px;
     margin-left: 40px;
 }
 
-.logo-container #logo-top{
+.logo-container .logo-top{
     margin-bottom: 0;
 }
 
-.logo-container #logo{
+.logo-container .logo{
     margin-left: 0;
 }
 
-.navbar-content ul{
+.navbar-content .links{
+    margin-top: 15px;
     font-weight: bolder;
     float: right;
     padding-left: 0;
     margin-right: 20px;
 }
 
-.navbar-content ul a{
+.navbar-content .links a{
     font-family: 'serif';
     text-transform: uppercase;
     text-decoration: none;
@@ -146,7 +147,7 @@ button{
     margin: 0px 20px;
 }
 
-.navbar-content ul a:hover{
+.navbar-content .links a:hover{
     font-family: 'serif';
     text-decoration: none;
     color: #7e5f40;
@@ -160,7 +161,7 @@ button{
 }
 
 #banner{
-    background-image: url(../img/cafe-chairs-menu-6267.jpg);
+    background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -460,7 +461,7 @@ button{
 }
 
 #quotes{
-    background-image: url(../img/caramel-macchiato.jpg);
+    background-image: url(../img/quotes-img-1.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -528,7 +529,7 @@ button{
     text-align: center;
 }
 
-#btn{
+.btn{
     border: 1px solid white;
     padding: 10px;
 
@@ -539,12 +540,12 @@ button{
     font-weight: bold;
 }
 
-#btn:hover{
+.btn:hover{
     color: #f7b733;
     background-color: white;
 }
 
-#btn-dark{
+.btn-dark{
     border: 1px solid #7e5f40;
     padding: 10px;
     border-radius: 12px;
@@ -555,7 +556,7 @@ button{
     margin-bottom: 40px;
 }
 
-#btn-dark:hover{
+.btn-dark:hover{
     color: white;
     background-color: #7e5f40;
 }
@@ -609,7 +610,7 @@ button{
 }
 
 #quotesAbout{
-    background-image: url(../img/coffee-3.jpg);
+    background-image: url(../img/quotes-img-2.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -626,7 +627,7 @@ button{
 }
 
 #quotesFindUs{
-    background-image: url(../img/coffee-4.jpg);
+    background-image: url(../img/quotes-img-3.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -701,7 +702,7 @@ footer {
     padding: 20px 0px;
 }
 
-#social-media-holder{
+.social-media-holder{
     margin: 10px 0px;
     display: inline-block;
 }
@@ -718,7 +719,7 @@ footer {
     font-style: italic;
 }
 
-#subtitle-center{
+.subtitle-center{
     text-align: center;
 }
 
