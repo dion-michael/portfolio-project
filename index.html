@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="icon" href="img/logo-only-white.png" width="15px" height="15px">
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/logo-only-white.png">
         <link href="./css/styles.css" type="text/css" rel="stylesheet">
         <title>Coffeebreak</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
@@ -12,14 +13,14 @@
         <header>
             <div class="navbar">
                 <nav class="navbar-content">
-                    <a href="#home"><img id="logo" src="./img/logo-with-icon.png" height="30px"></a>
-                    <ul>
+                    <a href="#home"><img alt="image" class="logo" src="./img/logo-with-icon.png" height="30"></a>
+                    <div class="links" style="text-align: right">
                         <a href="#home">Home</a>
                         <a href="#menu">Menu</a>
                         <a href="#about">About</a>
                         <a href="#findUs">Find Us</a>
-                        <a href="#FAQ">FAQs</a>
-                    </ul>
+                        <a href="#FAQ">FAQs</a>       
+                    </div>
                 </nav>
             </div>
         </header>
@@ -32,11 +33,11 @@
                         <!--empty div for overlay-->
                     </div>
                     <div class="centerized">
-                        <a href="index.html"><img src="./img/logo-without-icon-white.png" height="80px"></a>
+                        <a href="index.html"><img alt="image" src="./img/logo-without-icon-white.png" height="80"></a>
                         <h5>When your brain needs a hug!</h5>
                         <p>Science may never come up with a better office communication system than the coffee break.</p>
                         <br><br>
-                        <a id="btn" href="#menu">Order Now</a>
+                        <a class="btn" href="#menu">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -50,17 +51,17 @@
                     </div>
                     <div class="feature">
                         <div>
-                            <img class="featureImage" src="./img/002-livingroom-black-double-sofa.svg">
+                            <img alt="image" class="featureImage" src="./img/002-livingroom-black-double-sofa.svg">
                             <h3>Cozy as Fuck</h3>
                             <p class="description">Sofa. Sofa everywhere, Incredible lighting. Oh, and warm atmosphere too!</p>
                         </div>
                         <div>
-                            <img class="featureImage" src="./img/001-aeropress.svg">
+                            <img alt="image" class="featureImage" src="./img/001-aeropress.svg">
                             <h3>Brewed by Hand</h3>
                             <p class="description">All our coffee is manually brewed with our hands. It's impossible to do it with our foot</p>
                         </div>
                         <div>
-                            <img class="featureImage" src="./img/003-gingerbread-man.svg">
+                            <img alt="image" class="featureImage" src="./img/003-gingerbread-man.svg">
                             <h3>Free Cookies!</h3>
                             <p class="description">Because every coffee needs a friend</p>
                         </div>
@@ -84,13 +85,13 @@
                 </div>
                 <div class="centerized2">
                     <div class="logo-container">
-                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
-                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        <img alt="image" class="logo-top" src="./img/logo-only-white.png" height="60"><br>
+                        <img alt="image" class="logo" src="./img/logo-without-icon-white.png" height="30">
                     </div>        
                     <h2>Today's Special:</h2>            
                     <h1>Caramel Macchiato</h1>
                     <p>Caramel Macchiato. The delicious, multi-layered Macchiato begins with milk steamed until it's stretched and smooth to bring out its natural sweetness and is topped by a dense, creamy foam. Then rich espresso is poured over and through the foam, where it mixes with the milk and creates a brown mark on top.</p>
-                    <a id="btn" href="#caramel-macchiato-img">Add to Cart</a>
+                    <a class="btn" href="#caramel-macchiato-img">Add to Cart</a>
                 </div>
             </div>
 
@@ -107,28 +108,28 @@
                         </div>
                         <section class="feature-menu">
                             <div class="col-menu1 a">
-                                <img class="menuImageCappucino" src="./img/menu/Cappuccino.jpg">
+                                <img alt="image" class="menuImageCappucino" src="./img/menu/Cappuccino.jpg">
                                 <p class="descCappucino">Cappuccino is an espresso-based coffee drink, and is traditionally prepared with double espresso and steamed milk foam</p>
                                 <h3>Cappuccino</h3>
-                                <a href="#" id="btn-dark">Add to Cart</a><br>
+                                <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1 a">
-                                <img id="caramel-macchiato-img" class="menuImage-macchiato" src="./img/menu/caramel-macchiato-menu.jpg">
+                                <img alt="image" id="caramel-macchiato-img" class="menuImage-macchiato" src="./img/menu/caramel-macchiato-menu.jpg">
                                 <p class="desc-macchiato">Caramel Macchiato. The delicious, multi-layered Macchiato begins with milk steamed until it's stretched and smooth to bring out its natural sweetness and is topped by a dense, creamy foam. Then rich espresso is poured over and through the foam, where it mixes with the milk and creates a brown mark on top.</p>
                                 <h3>Caramel Macchiato</h3>
-                                <a href="#" id="btn-dark">Add to Cart</a><br>
+                                <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1 b">
-                                <img class="menuImage-blackCoffee" src="./img/menu/black-coffee.jpg" alt="black-coffee">
+                                <img  class="menuImage-blackCoffee" src="./img/menu/black-coffee.jpg" alt="black-coffee">
                                 <p class="desc-blackCoffee">Coffee without creamer or milk.</p>
                                 <h3>Black coffee</h3>
-                                <a href="#" id="btn-dark">Add to Cart</a><br>
+                                <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                                <img class="menuImage-tea" src="./img/menu/tea.jpg" alt="tea">
+                                <img  class="menuImage-tea" src="./img/menu/tea.jpg" alt="tea">
                                 <p class="desc-tea">Tea is an aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the Camellia sinensis</p>
                                 <h3>Tea</h3>
-                                <a href="#" id="btn-dark">Add to Cart</a><br>
+                                <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                         </section>
                         <div class="bottom-border">
@@ -136,20 +137,20 @@
                         </div>
                         <section class="feature-menu">
                             <div class="col-menu1">
-                            <img class="menuImage-grilledSteak" src="./img/menu/grilled-steak.jpg" alt="grilled-steak">
+                            <img  class="menuImage-grilledSteak" src="./img/menu/grilled-steak.jpg" alt="grilled-steak">
                             <p class="desc-grilledSteak">A steak is a meat generally sliced across the muscle fibers, potentially including a bone</p>
                             <h3>Grilled steak</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-frenchFries" src="./img/menu/french-fries.jpg" alt="french-fries">
+                            <img  class="menuImage-frenchFries" src="./img/menu/french-fries.jpg" alt="french-fries">
                             <p class="desc-frenchFries">We will connect you to people or merchant who want to reseller your product using our platform..</p>
                             <h3>French fries</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
             
                             <div class="col-menu1">
-                            <img class="menuImage-pancake" src="./img/menu/pancakes.jpg" alt="pancakes">
+                            <img  class="menuImage-pancake" src="./img/menu/pancakes.jpg" alt="pancakes">
                             <p class="desc-pancake">Pancake is a flat cake, often thin and round, prepared from a starch-based batter that may
                                     contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan,
                                     often frying with oil or butter.</p>
@@ -157,58 +158,58 @@
                             <p class="desc-pancake">Pancake is a flat cake, often thin and round, prepared from a starch-based batter that may
                                 contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan,
                                 often frying with oil or butter.</p>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-sandwich" src="./img/menu/sandwich.jpg" alt="sandwich">
+                            <img  class="menuImage-sandwich" src="./img/menu/sandwich.jpg" alt="sandwich">
                             <p class="desc-sandwich">sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or
                                     between slices of bread, or more generally any dish wherein two or more pieces of bread serve
                                     as a container or wrapper for another food type.</p>
                             <h3>Sandwich</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
             
                             <div class="col-menu1">
-                            <img class="menuImage-salad" src="./img/menu/salad.jpg" alt="salad">
+                            <img  class="menuImage-salad" src="./img/menu/salad.jpg" alt="salad">
                             <p class="desc-salad">A salad is a dish consisting of a mixture of small pieces of food, usually vegetables.</p>
                             <h3>Salad</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-chickenNugget" src="./img/menu/chicken-nugget.jpeg" alt="chicken-nugget">
+                            <img  class="menuImage-chickenNugget" src="./img/menu/chicken-nugget.jpeg" alt="chicken-nugget">
                             <p class="desc-chickenNugget">A chicken nugget is a chicken product made from chicken meat that is breaded or battered, then
                                     deep-fried or baked.</p>
                             <h3>Chicken nugget</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-spaghetti" src="./img/menu/spagheti.jpg" alt="spaghetti">
+                            <img  class="menuImage-spaghetti" src="./img/menu/spagheti.jpg" alt="spaghetti">
                             <p class="desc-spaghetti">Spaghetti is a long, thin, solid, cylindrical pasta with meat-based sauce originating from
                                     Bologna, Italy, hence the name.</p>
                             <h3>Spaghetti</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-burgers" src="./img/menu/burgers.jpg" alt="burgers">
+                            <img  class="menuImage-burgers" src="./img/menu/burgers.jpg" alt="burgers">
                             <p class="desc-burgers">is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed
                                     inside a sliced bread roll or bun.</p>
                             <h3>Burgers</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-friedChicken" src="./img/menu/fried-chicken.jpg" alt="fried-chicken">
+                            <img  class="menuImage-friedChicken" src="./img/menu/fried-chicken.jpg" alt="fried-chicken">
                             <p class="desc-friedChicken">Fried chicken is a dish consisting of chicken pieces usually from broiler chickens which have
                                     been floured or battered and then pan-fried, deep fried, or pressure fried. </p>
                             <h3>Fried Chicken</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                             <div class="col-menu1">
-                            <img class="menuImage-pizza" src="./img/menu/pizza.jpg" alt="pizza">
+                            <img  class="menuImage-pizza" src="./img/menu/pizza.jpg" alt="pizza">
                             <p class="desc-pizza">Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of
                                     leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients
                                     (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven</p>
                             <h3>Pizza</h3>
-                            <a href="#" id="btn-dark">Add to Cart</a><br>
+                            <a href="#" class="btn-dark">Add to Cart</a><br>
                             </div>
                         </section>
                     </section>
@@ -222,8 +223,8 @@
                 </div>
                 <div class="centerized2">
                     <div class="logo-container">
-                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
-                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        <img alt="image" class="logo-top" src="./img/logo-only-white.png" height="60"><br>
+                        <img alt="image" class="logo" src="./img/logo-without-icon-white.png" height="30">
                     </div>     
                     <h1>"Humanity runs on coffee"</h1>
                 </div>
@@ -233,9 +234,9 @@
             <div class="container" id="about">
                 <div class="statement-about">
                     <div class="section-title">
-                        <h1 class="title" style="margin-bottom: 0;">About</h1>
+                        <h1 class="title" style="margin-bottom: 0px;">About</h1>
                     </div>
-                    <div class="bottom-border" style="margin-top: 0px; padding-top: 0px;">
+                    <div class="bottom-border" style="margin-top: 0px; padding-top: 0;">
                         <h2>The Beginning</h2>
                     </div>
                     <p>I started drinking coffee when I was seven years old, in my grandmother’s kitchen. Coffee had been at the center of my life ever since. I was sitting in his old office one day, thinking about how much I wanted to have my own business. I was also thinking how much I’d really like to have a good cup of coffee. My friends, Dion, Fadli, Janto and Agus, had the sense to see that these dreams weren’t mutually exclusive, and suggested opening a coffeehouse. And we did. In February 2015, The “Coffee Break” Coffee Shop opened its doors. Our company has grown into one of the largest specialty coffee roasters in the Indonesia on the back bone of our reputation for the quality, freshness, and unmatched customer service.</p>
@@ -287,8 +288,8 @@
                 </div>
                 <div class="centerized2">
                     <div class="logo-container">
-                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
-                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        <img alt="image" class="logo-top" src="./img/logo-only-white.png" height="60"><br>
+                        <img alt="image" class="logo" src="./img/logo-without-icon-white.png" height="30">
                     </div>     
                     <h1>"Good communication is as stimulating as black coffee, and just as hard."</h1>
                 </div>
@@ -300,81 +301,81 @@
                     <div class="section-title" style="margin-bottom: 20px;">
                         <h1 class="title">Find Us</h1>
                     </div>
-                    <div class="bottom-border" id="subtitle-center" style="margin-top: 0px; padding-top: 0px;">
+                    <div class="bottom-border subtitle-center" style="margin-top: 0px; padding-top: 0;">
                         <h2>The Four Horsemen of Coffeebreak</h2>
                     </div>
                     <div class="horsemen-holder" style="margin-top: 20px;">
                         <div class="feature">
                             <div class="horsemen-holder">
-                                <img class="horsemenImage" src="./img/avatar-1.svg">
+                                <img alt="image" class="horsemenImage" src="./img/avatar-1.svg">
                                 <h3>Moch. Agus Rahmanto</h3>
                                 <p class="description">" Like everyone else who makes the mistake of getting older, I begin each day with coffee and obituaries "</p>
-                                <div id="social-media-holder">
-                                    <a href="https://www.facebook.com" target="_blank"><img class="social-media-img" src="./img/logo-facebook.svg"></a>
-                                    <a href="https://www.instagram.com" target="_blank"><img class="social-media-img" src="./img/logo-instagram.svg"></a>
-                                    <a href="https://www.twitter.com" target="_blank"><img class="social-media-img" src="./img/logo-twitter.svg"></a>
+                                <div class="social-media-holder">
+                                    <a href="https://www.facebook.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-facebook.svg"></a>
+                                    <a href="https://www.instagram.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-instagram.svg"></a>
+                                    <a href="https://www.twitter.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-twitter.svg"></a>
                                 </div>
                             </div>
                             <div class="horsemen-holder">
-                                <img class="horsemenImage" src="./img/avatar-2.svg">
+                                <img alt="image" class="horsemenImage" src="./img/avatar-2.svg">
                                 <h3>Janto Andriano</h3>
                                 <p class="description">" Why did the hipster burn his tongue? Because he drank his coffee before it was cool "</p>
-                                <div id="social-media-holder">
-                                    <a href="https://www.facebook.com" target="_blank"><img class="social-media-img" src="./img/logo-facebook.svg"></a>
-                                    <a href="https://www.instagram.com" target="_blank"><img class="social-media-img" src="./img/logo-instagram.svg"></a>
-                                    <a href="https://www.twitter.com" target="_blank"><img class="social-media-img" src="./img/logo-twitter.svg"></a>
-                                </div></div>
-                            <div class="horsemen-holder">
-                                <img class="horsemenImage" src="./img/avatar-3.svg">
-                                <h3>Fadli Syahmi</h3>                                
-                                <p class="description">" The most dangerous drinking game is seeing how long I can go without coffee "</p>
-                                <div id="social-media-holder">
-                                    <a href="https://www.facebook.com" target="_blank"><img class="social-media-img" src="./img/logo-facebook.svg"></a>
-                                    <a href="https://www.instagram.com" target="_blank"><img class="social-media-img" src="./img/logo-instagram.svg"></a>
-                                    <a href="https://www.twitter.com" target="_blank"><img class="social-media-img" src="./img/logo-twitter.svg"></a>
+                                <div class="social-media-holder">
+                                    <a href="https://www.facebook.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-facebook.svg"></a>
+                                    <a href="https://www.instagram.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-instagram.svg"></a>
+                                    <a href="https://www.twitter.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-twitter.svg"></a>
                                 </div>
                             </div>
                             <div class="horsemen-holder">
-                                <img class="horsemenImage" src="./img/avatar-4.svg">
+                                <img alt="image" class="horsemenImage" src="./img/avatar-3.svg">
+                                <h3>Fadli Syahmi</h3>                                
+                                <p class="description">" The most dangerous drinking game is seeing how long I can go without coffee "</p>
+                                <div class="social-media-holder">
+                                    <a href="https://www.facebook.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-facebook.svg"></a>
+                                    <a href="https://www.instagram.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-instagram.svg"></a>
+                                    <a href="https://www.twitter.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-twitter.svg"></a>
+                                </div>
+                            </div>
+                            <div class="horsemen-holder">
+                                <img alt="image" class="horsemenImage" src="./img/avatar-4.svg">
                                 <h3>Dion Michael</h3>                                    
                                 <p class="description">" If you are not coffee, chocolate or bacon, I’m going to need you to go away "</p>
-                                <div id="social-media-holder">
-                                    <a href="https://www.facebook.com" target="_blank"><img class="social-media-img" src="./img/logo-facebook.svg"></a>
-                                    <a href="https://www.instagram.com" target="_blank"><img class="social-media-img" src="./img/logo-instagram.svg"></a>
-                                    <a href="https://www.twitter.com" target="_blank"><img class="social-media-img" src="./img/logo-twitter.svg"></a>
+                                <div class="social-media-holder">
+                                    <a href="https://www.facebook.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-facebook.svg"></a>
+                                    <a href="https://www.instagram.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-instagram.svg"></a>
+                                    <a href="https://www.twitter.com" target="_blank"><img alt="image" class="social-media-img" src="./img/logo-twitter.svg"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="bottom-border" id="subtitle-center" style="margin-top: 40px; padding-top: 0px;">
+                    <div class="subtitle-center bottom-border" style="margin-top: 40px; padding-top: 0;">
                         <h2>Our Locations</h2>
                     </div>
 
-                    
-                    </div>
+                
                     <div class="horsemen-holder" style="margin-top: 20px;">
-                            <div class="feature">
-                                <div class="horsemen-holder">
-                                    <img class="horsemenImage" src="./img/coffee-shop-1.jpg">
-                                    <h3>Coffeebreak<br>Kebayoran Lama</h3>
-                                    <p class="description">Jalan Sultan Iskandar Muda No.7, RT.5/RW.9, Kebayoran Lama Selatan, Kebayoran Lama, RT.5/RW.9, Kby. Lama Sel., Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240</p>
-                                    <a id="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
-                                </div>
-                                <div class="horsemen-holder">
-                                    <img class="horsemenImage" src="./img/coffee-shop-2.jpg">
-                                    <h3>Coffeebreak<br>Senayan City</h3>
-                                    <p class="description">Jl. Asia Afrika No.19, RT.1/RW.3, Gelora, Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</p>
-                                    <a id="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
-                                </div>
-                                <div class="horsemen-holder">
-                                    <img class="horsemenImage" src="./img/coffee-shop-3.jpg">
-                                    <h3>Coffeebreak<br>Cilandak</h3>
-                                    <p class="description">Jl. Terogong Raya No.10, RT.15/RW.10, Cilandak Bar., Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
-                                    <a id="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
-                                </div>
+                        <div class="feature">
+                            <div class="horsemen-holder">
+                                <img alt="image" class="horsemenImage" src="./img/coffee-shop-1.jpg">
+                                <h3>Coffeebreak<br>Kebayoran Lama</h3>
+                                <p class="description">Jalan Sultan Iskandar Muda No.7, RT.5/RW.9, Kebayoran Lama Selatan, Kebayoran Lama, RT.5/RW.9, Kby. Lama Sel., Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12240</p>
+                                <a class="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
+                            </div>
+                            <div class="horsemen-holder">
+                                <img alt="image" class="horsemenImage" src="./img/coffee-shop-2.jpg">
+                                <h3>Coffeebreak<br>Senayan City</h3>
+                                <p class="description">Jl. Asia Afrika No.19, RT.1/RW.3, Gelora, Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270</p>
+                                <a class="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
+                            </div>
+                            <div class="horsemen-holder">
+                                <img alt="image" class="horsemenImage" src="./img/coffee-shop-3.jpg">
+                                <h3>Coffeebreak<br>Cilandak</h3>
+                                <p class="description">Jl. Terogong Raya No.10, RT.15/RW.10, Cilandak Bar., Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
+                                <a class="btn-dark" href="https://maps.google.com" target="_blank">Directions</a>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
     
             <!--quotes image-->
@@ -384,8 +385,8 @@
                 </div>
                 <div class="centerized2">
                     <div class="logo-container">
-                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
-                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        <img alt="image" class="logo-top" src="./img/logo-only-white.png" height="60"><br>
+                        <img alt="image" class="logo" src="./img/logo-without-icon-white.png" height="30">
                     </div>  
                     <h1 style="font-size: 30pt">"Coffeeology: Espresso yourself. So many blends, so little time. Take life one sip at a time, and stay grounded. Better latte than never. Take time to smell the cover"</h1>
                     <p>- unknown</p>
@@ -404,7 +405,7 @@
                         <div class="feature bottom-border">
                             <div>
                                 <h3>Where is the Coffee Break Coffee Shop located?</h3>
-                                <p class="description">Our first and main coffee shop is located in Kebayoran Lama, Jakarta Selatan. Currently we have 3 branch, for the location details, you can click <a href="#findUs">here</a></a></p>
+                                <p class="description">Our first and main coffee shop is located in Kebayoran Lama, Jakarta Selatan. Currently we have 3 branch, for the location details, you can click <a href="#findUs">here</a></p>
                             </div>
                             <div>
                                 <h3>When are you open?</h3>
@@ -446,28 +447,26 @@
             </div>
 
             <!--CONTACT FORM-->
-            <!---------------->
-                    <div id="subtitle-center" style="margin-bottom:60px">
-                        <h1 id="subtitle-center">CONTACT US</h1>
+                    <div class="subtitle-center" style="margin-bottom:60px">
+                        <h1 class="subtitle-center">CONTACT US</h1>
                         <form class="contact-form">
                             <div class="contact-input">
+
                                 <div class="contact-input-name">
                                     <input type="text" id="name" placeholder="NAME" name="name" value="" minlength="4" maxlength="15" required>
                                 </div>
                                 <div class="contact-input-email">
                                     <input type="email" id="email" placeholder="EMAIL" name="email" value="" required>
                                 </div>   
-                                </div>
-        
+                                
                                 <div class="button">
-                                    <button type="submit" value="SEND">
-                                        <div class="send-button">
-                                            <span class="send-text">SUBSCRIBE OUR EMAIL</span>
-                                        </div>
+                                    <button type="submit" value="SEND" class="send-button">
+                                        <span class="send-text">SUBSCRIBE OUR EMAIL</span>
                                     </button>
                                 </div>
+
                             </div>
-                       </form>
+                        </form>
                     </div>
     
 
@@ -478,8 +477,8 @@
                 </div>
                 <div class="centerized2">
                     <div class="logo-container">
-                        <img id="logo-top" src="./img/logo-only-white.png" height="60px"><br>
-                        <img id="logo" src="./img/logo-without-icon-white.png" height="30px">
+                        <img alt="image" class="logo-top" src="./img/logo-only-white.png" height="60"><br>
+                        <img alt="image" class="logo" src="./img/logo-without-icon-white.png" height="30">
                     </div>  
                     <h1>"Cofhee ith alwayth a good idea"</h1>
                     <p>- Mike Tython</p>
